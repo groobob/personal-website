@@ -27,7 +27,7 @@
     font-size: 1.2rem;
 
     transition-property: background-color;
-    transition-duration: .2s;
+    transition-duration: .1s;
     transition-timing-function: linear;
 }
 
