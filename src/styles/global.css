@@ -27,6 +27,11 @@ html {
     }
 }
 
+body{
+    margin: 0;
+}
+
 h1, a{
     color: #f0ebd8;
+    
 }
