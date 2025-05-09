@@ -1,0 +1,38 @@
+---
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+const pageTitle:string = "About Me"
+
+const skills = ["skip", "foo", "bar"]
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{pageTitle}</title>
+        <style>
+            h1 {
+              color: purple;
+              font-size: 4rem;
+            }
+            .skill {
+                color: green;
+                font-weight: bold;
+            }
+          </style>
+	</head>
+	<body>
+        <Navigation />
+		<h1>{pageTitle}</h1>
+        <p>My skills are:</p>
+        <ul>
+            {skills.map((skill) => <li class="skill">{skill}</li>)}
+        </ul>
+        <Footer />
+	</body>
+</html>

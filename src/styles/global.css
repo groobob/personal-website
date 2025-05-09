@@ -1,6 +1,8 @@
 html {
     background-color: #17182A;
     background-image: url("../images/Website_Tiles.png");
+    background-size: 120px 120px;
+
     animation-name: bgscroll, bgfade;
     animation-duration: 40s, 1.5s;
     animation-delay: 0s, 1s;
@@ -14,7 +16,7 @@ html {
         background-position: 0px 0px;
     }
     100%{
-        background-position: 480px 320px;
+        background-position: 360px 240px;
     }
 }
 
