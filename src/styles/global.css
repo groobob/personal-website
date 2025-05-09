@@ -9,6 +9,8 @@ html {
     animation-iteration-count: infinite, 1;
     animation-fill-mode: both, both;
     animation-timing-function: linear, ease-in-out;
+
+    margin: 0;
 }
 
 @keyframes bgscroll {
