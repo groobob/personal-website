@@ -40,6 +40,10 @@
 {
     margin-bottom: 2rem;
 }
+.secrets
+{
+    background: linear-gradient(rgba(55, 69, 109, 0), rgba(74, 26, 83, 0.5))
+}
 .secrets-text
 {
     margin-top: 2rem;
@@ -53,11 +57,33 @@
     font-size: 2rem;
 
     margin-top: 4rem;
+
+    padding-top: 1rem;
 }
 .tetris
 {
+    background-color: #36456D;
+    background-color: rgba(55, 69, 109, .5);
+
     text-align: center;
-    margin-bottom: 10rem;
+
+    margin-bottom: 6rem;
+    margin-left: 28vw;
+    margin-right: 28vw;
+
+    padding-bottom: 1rem;
+
+    border-radius: .5rem;
+}
+.gif
+{
+    background-color: #36456D;
+    background-color: rgba(55, 69, 109, .5);
+
+    margin-left: 32vw;
+    margin-right: 32vw;
+
+    border-radius: .5rem;
 }
 .tenor-gif-embed
 {
