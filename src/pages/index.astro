@@ -1,6 +1,10 @@
 ---
 import Navigation from '../components/Navigation.astro';
 import '../styles/global.css';
+
+const TETRIO_API:string = 'https://ch.tetr.io/api/users/groober/summaries/league';
+const response = await fetch(TETRIO_API);
+const data = await response.json();
 ---
 
 <html lang="en">
@@ -14,62 +18,6 @@ import '../styles/global.css';
             html{
                 background-image: url("../images/Home_Tiles1.png");
             }
-            .hero{
-                background-color: #36456D;
-                background-color: rgba(55, 69, 109, .25);
-
-                margin-left: 30vw;
-                margin-right: 30vw;
-                margin-top: 1rem;
-
-                padding: .1rem;
-
-                text-align: center;
-                font-size: 1.5rem;
-                border-radius: 1rem;
-
-            }
-            .separator
-            {
-                margin-top: -1.5rem;
-
-                text-align: center;
-            }
-			.about
-			{
-				background-color: rgba(55, 69, 109, .5);
-
-				margin-left: 20vw;
-                margin-right: 20vw;
-				margin-top: 1rem;
-
-				padding-top: 1rem;
-				padding-left: 2rem;
-				padding-right: 2rem;
-				padding-bottom: 1rem;
-
-				font-size: 1.4rem;
-
-				border-radius: .5rem;
-			}
-			.about-text
-			{
-				margin-bottom: 2rem;
-			}
-			.gif-text
-			{
-				text-align: center;
-				font-size: 1.6rem;
-
-				margin-top: 4rem;
-			}
-			.tenor-gif-embed
-			{
-				margin-left: auto;
-				margin-right: auto;
-				padding-bottom: 2.5rem;
-				border-radius: 1rem;
-			}
         </style>
 	</head>
 	<body>
@@ -94,10 +42,21 @@ import '../styles/global.css';
 				Also, send me a message on Discord if you wanna play tetris 👀.
 			</p>
 		</div>
-		<div>
-			<p class="gif-text">Current Favourite Gif</p>
-			<p class="separator">✦•┈๑⋅⋯ ⋯⋅๑┈•✦</p>
-			<div class="tenor-gif-embed" data-postid="14465458220549268962" data-share-method="host" data-aspect-ratio="1.8125" data-width="20%"><a href="https://tenor.com/view/buh-gif-14465458220549268962">Buh GIF</a>from <a href="https://tenor.com/search/buh-gifs">Buh GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+		<div class="secrets">
+			<p class="secrets-text">secrets below...</p>
+			<div class="tetris">
+				<p class="secrets-subtitle-text">Live Tetris Standing</p>
+				<p class="separator">·•—–––––––•·</p>
+				<p style="font-size: 1.4rem;">| Current TR: {data.data.tr.toFixed(2)} | Top {data.data.standing} Global |</p>
+				<p style="font-size: 1.2rem;">| Stats: {data.data.apm}APM | {data.data.pps}PPS | {data.data.vs}VS |</p>
+				<p>Check me out right <a href="https://ch.tetr.io/u/groober">here</a>!</p>
+
+			</div>
+			<div class="gif">
+				<p class="secrets-subtitle-text">Current Favourite Gif</p>
+				<p class="separator">·•—–––––––•·</p>
+				<div class="tenor-gif-embed" data-postid="14465458220549268962" data-share-method="host" data-aspect-ratio="1.8125" data-width="20%"><a href="https://tenor.com/view/buh-gif-14465458220549268962">Buh GIF</a>from <a href="https://tenor.com/search/buh-gifs">Buh GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+			</div>
 		</div>
 	</body>
 </html>

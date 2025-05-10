@@ -1,0 +1,68 @@
+.hero{
+    background-color: #36456D;
+    background-color: rgba(55, 69, 109, .25);
+
+    margin-left: 35vw;
+    margin-right: 35vw;
+    margin-top: 1rem;
+
+    padding: .1rem;
+
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+
+}
+.separator
+{
+    margin-top: -1.5rem;
+
+    text-align: center;
+}
+.about
+{
+    background-color: rgba(55, 69, 109, .75);
+
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 1rem;
+
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+
+    font-size: 1.4rem;
+
+    border-radius: .5rem;
+}
+.about-text
+{
+    margin-bottom: 2rem;
+}
+.secrets-text
+{
+    margin-top: 2rem;
+    margin-bottom: 20rem;
+
+    text-align: center;
+}
+.secrets-subtitle-text
+{
+    text-align: center;
+    font-size: 2rem;
+
+    margin-top: 4rem;
+}
+.tetris
+{
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.tenor-gif-embed
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2.5rem;
+    border-radius: 1rem;
+}
