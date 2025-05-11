@@ -1,6 +1,6 @@
 .hero{
     background-color: #36456D;
-    background-color: rgba(55, 69, 109, .25);
+    background-color: rgba(55, 69, 109, .75);
 
     margin-left: 35vw;
     margin-right: 35vw;
@@ -21,7 +21,7 @@
 }
 .about
 {
-    background-color: rgba(55, 69, 109, .75);
+    background-color: rgba(55, 69, 109, .5);
 
     margin-left: 25vw;
     margin-right: 25vw;
