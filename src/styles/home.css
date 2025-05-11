@@ -60,14 +60,29 @@
 
     padding-top: 1rem;
 }
-.tetris
+.time
 {
     background-color: #36456D;
-    background-color: rgba(55, 69, 109, .5);
+    background-color: rgba(61, 46, 104, 0.5);
 
     text-align: center;
 
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
+    margin-left: 30vw;
+    margin-right: 30vw;
+
+    padding-bottom: 1rem;
+
+    border-radius: .5rem;
+}
+.tetris
+{
+    background-color: #36456D;
+    background-color: rgba(61, 46, 104, 0.5);
+
+    text-align: center;
+
+    margin-bottom: 4rem;
     margin-left: 28vw;
     margin-right: 28vw;
 
@@ -78,7 +93,7 @@
 .gif
 {
     background-color: #36456D;
-    background-color: rgba(55, 69, 109, .5);
+    background-color: rgba(61, 46, 104, 0.5);
 
     margin-left: 32vw;
     margin-right: 32vw;

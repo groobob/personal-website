@@ -6,6 +6,9 @@ import '../styles/home.css';
 const TETRIO_API:string = 'https://ch.tetr.io/api/users/groober/summaries/league';
 const response = await fetch(TETRIO_API);
 const data = await response.json();
+
+let date = new Date();
+let time = date.toLocaleString('en-US', {hour: '2-digit', minute: '2-digit', hour12: true, timeZone: 'America/New_York' });
 ---
 
 <html lang="en">
@@ -45,11 +48,17 @@ const data = await response.json();
 		</div>
 		<div class="secrets" style="padding-bottom: 4rem;">
 			<p class="secrets-text">secrets below...</p>
+			<div class="time">
+				<p class="secrets-subtitle-text">My Current Time</p>
+				<p class="separator">·•—–––––––•·</p>
+				<p style="font-size: 1.5rem;">As of opening this page it is currently...</p>
+				<p style="font-size: 1.5rem; text-decoration: underline;">{time}</p>
+			</div>
 			<div class="tetris">
 				<p class="secrets-subtitle-text">Live Tetris Standing</p>
 				<p class="separator">·•—–––––––•·</p>
-				<p style="font-size: 1.4rem;">| Current TR: {data.data.tr.toFixed(2)} | Top {data.data.standing} Global |</p>
-				<p style="font-size: 1.2rem;">| Stats: {data.data.apm}APM | {data.data.pps}PPS | {data.data.vs}VS |</p>
+				<p style="font-size: 1.4rem;">Current Tetris Rating: {data.data.tr.toFixed(2)} | Top {data.data.standing} Global</p>
+				<p style="font-size: 1.2rem;">Stats: {data.data.apm} APM | {data.data.pps} PPS | {data.data.vs} VS</p>
 				<p>Check me out right <a href="https://ch.tetr.io/u/groober">here</a>!</p>
 
 			</div>
