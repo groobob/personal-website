@@ -47,7 +47,7 @@ const data = await response.json();
 			<div class="time">
 				<p class="secrets-subtitle-text">My Current Time</p>
 				<p class="separator">·•—–––––––•·</p>
-				<p style="font-size: 1.5rem;">As of opening this page it is currently...</p>
+				<p style="font-size: 1.5rem;">It is currently...</p>
 				<p id="current-time" style="font-size: 1.5rem; text-decoration: underline;">Loading...</p>
 			</div>
 			<div class="tetris">
@@ -64,21 +64,9 @@ const data = await response.json();
 			</div>
 		</div>
 		<script>
-			// Function to update the time dynamically
-			function updateTime() {
-				const now = new Date();
-				const timeString = now.toLocaleString('en-US', {
-					hour: '2-digit',
-					minute: '2-digit',
-					hour12: true,
-					timeZone: 'America/New_York'
-				});
-				document.getElementById('current-time').innerText = timeString;
-			}
+			import {StartTimeUpdate} from "../scripts/timeUpdater";
 
-			// Update the time every second
-			setInterval(updateTime, 1000);
-			updateTime(); // Initial call to set the time immediately
+			StartTimeUpdate();
 		</script>
 	</body>
 </html>
