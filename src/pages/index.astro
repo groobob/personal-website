@@ -53,8 +53,8 @@ const data = await response.json();
 			<div class="tetris">
 				<p class="secrets-subtitle-text">Live Tetris Standing</p>
 				<p class="separator">·•—–––––––•·</p>
-				<p style="font-size: 1.4rem;">Current Tetris Rating: {data.data.tr.toFixed(2)} | Top {data.data.standing} Global</p>
-				<p style="font-size: 1.2rem;">Stats: {data.data.apm} APM | {data.data.pps} PPS | {data.data.vs} VS</p>
+				<p id="tetris-rating" style="font-size: 1.4rem;">Loading...</p>
+				<p id="tetris-stats" style="font-size: 1.2rem;">Loading...</p>
 				<p>Check me out right <a href="https://ch.tetr.io/u/groober">here</a>!</p>
 			</div>
 			<div class="gif">
@@ -65,8 +65,10 @@ const data = await response.json();
 		</div>
 		<script>
 			import {StartTimeUpdate} from "../scripts/timeUpdater";
+			import {StartStatUpdate} from "../scripts/tetrioStatUpdater";
 
 			StartTimeUpdate();
+			StartStatUpdate();
 		</script>
 	</body>
 </html>
