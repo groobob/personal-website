@@ -2,10 +2,6 @@
 import Navigation from '../components/Navigation.astro';
 import '../styles/global.css';
 import '../styles/home.css';
-
-const TETRIO_API: string = 'https://ch.tetr.io/api/users/groober/summaries/league';
-const response = await fetch(TETRIO_API);
-const data = await response.json();
 ---
 <html lang="en">
 	<head>
@@ -16,7 +12,7 @@ const data = await response.json();
 		<title>Richard Zhang</title>
 		<style>
 			html {
-				background-image: url("../images/Home_Tiles1.png");
+				background-image: url("../images/Home_Tiles.png");
 			}
 		</style>
 	</head>
@@ -54,7 +50,7 @@ const data = await response.json();
 				<p class="secrets-subtitle-text">Live Tetris Standing</p>
 				<p class="separator">·•—–––––––•·</p>
 				<p id="tetris-rating" style="font-size: 1.4rem;">Loading...</p>
-				<p id="tetris-stats" style="font-size: 1.2rem;">Loading...</p>
+				<p id="tetris-stats" style="font-size: 1.2rem;">Likely waking up proxy server, please sit tight!</p>
 				<p>Check me out right <a href="https://ch.tetr.io/u/groober">here</a>!</p>
 			</div>
 			<div class="gif">
