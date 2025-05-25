@@ -1,9 +1,15 @@
 ---
-const {name, description, link, image} = Astro.props;
+const {name, description, link, image, index} = Astro.props;
 ---
-<div class="project">
+<!--<style>
+    .projects-card {
+        background-color: rgba(55, 69, 109, .5);
+    }
+</style>-->
+<div class="projects-card">
     <p>{name}</p>
     <p>{description}</p>
     <p>{link}</p>
     <p>{image}</p>
+    <p>{index}</p>
 </div>
