@@ -54,16 +54,20 @@
 
 .projects-card
 {
-    background-color: rgba(55, 69, 109, .5);
+    background-color: rgba(55, 69, 109, .4);
 
-    padding-top: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-top: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     padding-bottom: 1rem;
 
-    font-size: 1.4rem;
+    z-index: 1;
+
+    font-size: 1.2rem;
 
     text-align: center;
+
+    word-wrap: break-word;
 
     border-radius: .5rem;
 
@@ -75,7 +79,26 @@
     animation-fill-mode: both;
     animation-timing-function: cubic-bezier(0.02, 0.66, 0.15, 0.98);
 
+    width: 12rem;
+    height: 15rem;
+}
+
+.projects-image
+{
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;    
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin-inline: auto;
+
     width: 10rem;
-    height: 12rem;
+    height: 10rem;
+
+    border-radius: .5rem;
 }
 

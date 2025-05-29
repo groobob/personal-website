@@ -2,16 +2,23 @@
 const {name, description, link, image, index} = Astro.props;
 const timeDelayFactor = .1;
 const timeDelay = `${index*timeDelayFactor}s`;
+const cardImage = `url(${image})`;
 ---
-<style define:vars={{ timeDelay }}>
-    .projects-card {
-        animation-delay: var(--timeDelay);
+<style define:vars={{ timeDelay, cardImage }}>
+    .projects-card
+    {
+        animation-delay: var(--timeDelay);        
+    }
+    .projects-image
+    {
+        background-image: var(--cardImage);
     }
 </style>
 <div class="projects-card">
     <p>{name}</p>
-    <p>{description}</p>
-    <p>{link}</p>
-    <p>{image}</p>
-    <p>{index}</p>
+    <div class="projects-image">
+        <p>{description}</p>
+        <p>{link}</p>
+        <p>{index}</p>
+    </div>
 </div>
