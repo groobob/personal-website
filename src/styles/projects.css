@@ -104,6 +104,10 @@
     transition-duration: .25s;
     transition-property: width, height, text-color;
     transition-timing-function: cubic-bezier(0.02, 0.66, 0.15, 0.98);
+
+    outline-style: solid;
+    outline-width: .1rem;
+    outline-color: rgba(240, 235, 216, 0.5);
 }
 
 .projects-image:hover
@@ -118,15 +122,15 @@
     height: 100%;
 
     font-size: 1rem;
-    text-align: left;
+    text-align: center;
 
     position: relative;
 
-    bottom: 1.1rem;
+    bottom: 1rem;
 
     border-radius: .5rem;
 
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .8);
 
     opacity: 0;
 
