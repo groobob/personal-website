@@ -7,14 +7,7 @@ import '../styles/projects.css';
 let index = 0;
 
 const projectsData = [
-	{name: "BURGERPUNK", description: "9", link: "9", image: "src/images/projectimages/Burgerpunk.png"},
-	{name: "b", description: "8", link: "8", image: "8"},
-	{name: "b", description: "8", link: "8", image: "8"},
-	{name: "b", description: "8", link: "8", image: "8"},
-	{name: "b", description: "8", link: "8", image: "8"},
-	{name: "b", description: "8", link: "8", image: "8"},
-	{name: "b", description: "8", link: "8", image: "8"},
-	{name: "b", description: "8", link: "8", image: "8"},
+	{name: "BURGERPUNK", description1: "Defend and manage your restaurant in this fast-paced first-person shoot-em-up hybrid! Made for Gamedev.js Jam 2025", description2: "PLAY IT HERE", link: "https://chillhopper.itch.io/burgerpunk", image: "src/images/projectimages/Burgerpunk.png"}
 ];
 
 ---
@@ -40,7 +33,7 @@ const projectsData = [
 		</div>
 		<p class="separator">·•—–––––––•·</p>
 		<div class="projects">
-			{projectsData.map((data) => <ProjectCard name={data.name} description={data.description} link={data.link} image={data.image} index={index++}/>)}
+			{projectsData.map((data) => <ProjectCard name={data.name} description1={data.description1} description2={data.description2} link={data.link} image={data.image} index={index++}/>)}
 		</div>
 	</body>
 </html>

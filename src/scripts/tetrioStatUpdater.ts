@@ -1,6 +1,5 @@
 export function StartStatUpdate() {
     async function GetStats() {
-        // Update the URL to point to your proxy server
         const TETRIO_API = 'https://personal-proxy-djou.onrender.com/users/';
         
         try {

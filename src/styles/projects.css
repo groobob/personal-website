@@ -63,7 +63,7 @@
 
     z-index: 1;
 
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 
     text-align: center;
 
@@ -88,17 +88,55 @@
     position: absolute;
     bottom: 1rem;
     left: 0;
-    right: 0;    
+    right: 0;
 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 
-    margin-inline: auto;
+    margin: auto;
 
     width: 10rem;
     height: 10rem;
 
     border-radius: .5rem;
+
+    transition-duration: .25s;
+    transition-property: width, height, text-color;
+    transition-timing-function: cubic-bezier(0.02, 0.66, 0.15, 0.98);
 }
 
+.projects-image:hover
+{
+    width: 11rem;
+    height: 11rem;
+}
+
+.projects-description
+{
+    width: 100%;
+    height: 100%;
+
+    font-size: 1rem;
+    text-align: left;
+
+    position: relative;
+
+    bottom: 1.1rem;
+
+    border-radius: .5rem;
+
+    background-color: rgba(0, 0, 0, .5);
+
+    opacity: 0;
+
+    transition-delay: .25s;
+    transition-duration: .25s;
+    transition-property: opacity;
+    transition-timing-function: cubic-bezier(0.02, 0.66, 0.15, 0.98);
+}
+
+.projects-description:hover
+{
+    opacity: 1;
+}

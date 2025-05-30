@@ -1,5 +1,5 @@
 ---
-const {name, description, link, image, index} = Astro.props;
+const {name, description1, description2, link, image, index} = Astro.props;
 const timeDelayFactor = .1;
 const timeDelay = `${index*timeDelayFactor}s`;
 const cardImage = `url(${image})`;
@@ -17,8 +17,9 @@ const cardImage = `url(${image})`;
 <div class="projects-card">
     <p>{name}</p>
     <div class="projects-image">
-        <p>{description}</p>
-        <p>{link}</p>
-        <p>{index}</p>
+        <div class="projects-description">
+            <p style="margin-inline: .5rem;">{description1}<br><br></p>
+            <p style="margin-top: -1.5rem; margin-inline: .5rem;"><a href={link} target="_blank">{description2}</a></p>
+        </div>
     </div>
 </div>
