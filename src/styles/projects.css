@@ -102,7 +102,7 @@
 
     border-radius: .5rem;
 
-    transition-duration: .25s;
+    transition-duration: .2s;
     transition-property: width, height, text-color;
     transition-timing-function: cubic-bezier(0.02, 0.66, 0.15, 0.98);
     transition-delay: .25s;
@@ -137,8 +137,8 @@
 
     opacity: 0;
 
-    transition-delay: .1s;
-    transition-duration: .2s;
+    transition-delay: .2s;
+    transition-duration: .1s;
     transition-property: opacity;
     transition-timing-function: cubic-bezier(0.02, 0.66, 0.15, 0.98);
 }
