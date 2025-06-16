@@ -11,6 +11,8 @@ html {
     animation-timing-function: linear, ease-in-out;
 
     margin: 0;
+
+    font-family:monospace;
 }
 
 @keyframes bgscroll {

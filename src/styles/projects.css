@@ -12,7 +12,7 @@
     padding-right: 2rem;
     padding-bottom: 1rem;
 
-    font-size: 1.5rem;
+    font-size: 2rem;
 
     text-align: center;
 
@@ -64,7 +64,7 @@
 
     z-index: 1;
 
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 
     text-align: center;
 
@@ -105,6 +105,7 @@
     transition-duration: .25s;
     transition-property: width, height, text-color;
     transition-timing-function: cubic-bezier(0.02, 0.66, 0.15, 0.98);
+    transition-delay: .25s;
 
     outline-style: solid;
     outline-width: .1rem;
@@ -113,8 +114,9 @@
 
 .projects-image:hover
 {
-    width: 11rem;
-    height: 11rem;
+    width: 12rem;
+    height: 12rem;
+    transition-delay: 0s;
 }
 
 .projects-description
@@ -135,8 +137,8 @@
 
     opacity: 0;
 
-    transition-delay: .25s;
-    transition-duration: .25s;
+    transition-delay: .1s;
+    transition-duration: .2s;
     transition-property: opacity;
     transition-timing-function: cubic-bezier(0.02, 0.66, 0.15, 0.98);
 }
