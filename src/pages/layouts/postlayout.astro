@@ -1,0 +1,22 @@
+---
+const { frontmatter } = Astro.props;
+
+import Navigation from '../../components/Navigation.astro';
+import Footer from '../../components/Footer.astro';
+
+import '../../styles/global.css';
+import '../../styles/footer.css';
+---
+<html>
+  <head>
+    <!-- Add other Head elements here, like styles and meta tags. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{frontmatter.title}</title>
+  </head>
+  <body>
+    <Navigation />
+    <slot />
+    <Footer />
+  </body>
+</html>

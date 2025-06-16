@@ -1,0 +1,13 @@
+---
+const {name, date, description, image, link} = Astro.props;
+---
+<style></style>
+<div class="blog-card">
+    <div class="blog-info">
+        <p>{name}•{date}</p>
+        <p>{description}</p>
+    </div>
+    <div class="blog-link">
+        <a href={link}>CLICK TO VIEW</a>
+    </div>
+</div>
