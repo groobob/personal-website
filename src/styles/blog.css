@@ -1,0 +1,30 @@
+.about
+{
+    background-color: rgba(55, 69, 109, .5);
+
+    margin-left: 35vw;
+    margin-right: 35vw;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+    padding-top: .2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+
+    font-size: 2rem;
+
+    text-align: center;
+
+    border-radius: .5rem;
+}
+.about-text
+{
+    margin-bottom: 1rem;
+}
+.separator
+{
+    margin-top: -2.5rem;
+
+    text-align: center;
+}

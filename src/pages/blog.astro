@@ -2,10 +2,8 @@
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
-
-const pageTitle:string = "About Me"
-
-const skills = ["skip", "foo", "bar"]
+import '../styles/blog.css';
+import '../styles/footer.css';
 ---
 
 <html lang="en">
@@ -14,23 +12,19 @@ const skills = ["skip", "foo", "bar"]
 		<link rel="icon" type="image/x-icon" href="/favicon.ico">
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle}</title>
+		<title>Blog</title>
         <style>
-            h1 {
-              color: purple;
-              font-size: 4rem;
-            }
-            .skill {
-                color: green;
-                font-weight: bold;
-            }
             html {
               background-image: url("../images/Blog_Tiles.png");
             }
           </style>
 	</head>
 	<body>
-        <Navigation />
-		<h1>wip</h1>
+    <Navigation/>
+    <div class="about">
+      <p class="about-text">Welcome to my blog!</p>
+    </div>
+    <p class="separator">·•—–––––––•·</p>
+    <Footer/>
 	</body>
 </html>
