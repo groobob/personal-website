@@ -2,10 +2,8 @@
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
-
-const pageTitle:string = "About Me"
-
-const skills = ["skip", "foo", "bar"]
+import '../styles/contact.css';
+import '../styles/footer.css';
 ---
 
 <html lang="en">
@@ -14,16 +12,8 @@ const skills = ["skip", "foo", "bar"]
 		<link rel="icon" type="image/x-icon" href="/favicon.ico">
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle}</title>
+		<title>Contact</title>
         <style>
-            h1 {
-              color: purple;
-              font-size: 4rem;
-            }
-            .skill {
-                color: green;
-                font-weight: bold;
-            }
             html {
 				background-image: url("../images/Contact_Tiles.png");
 			}
@@ -31,6 +21,22 @@ const skills = ["skip", "foo", "bar"]
 	</head>
 	<body>
         <Navigation />
-		<h1>wip</h1>
+		<div class="about">
+			<p class="about-text">Want to get in touch?</p>
+            <p class="about-text" style="font-size: 1.6rem;">Check out my socials!</p>
+		</div>
+        <p class="separator">·•—–––––––•·</p>
+        <div class="email">
+            <p>Send emails <strong>richard.zhangonca@gmail.com</strong> for any inquiries.</p>
+            <p>Or if you just wanna chat...</p>
+        </div>
+        <div class="contact">
+                <p>I'm <a href="https://www.instagram.com/groobaer/#" target="_blank">@groobaer</a> on Instagram!</p>
+                <p>I'm <a href="https://steamcommunity.com/id/Oritimis" target="_blank">groober</a> on Steam!</p>
+                <p>I'm groobr on Discord!</p>
+                <p>I'm <a href="https://groober.itch.io/" target="_blank">grooba</a> on Itch!</p>
+                <p>I'm <a href="https://github.com/groobob" target="_blank">groobob</a> on Github!</p>
+        </div>
+        <Footer />
 	</body>
 </html>

@@ -41,3 +41,12 @@ body{
 h1, a, p{
     color: #f0ebd8;
 }
+
+.separator
+{
+    margin-top: -2.5rem;
+
+    font-size: 1.2rem;
+
+    text-align: center;
+}
