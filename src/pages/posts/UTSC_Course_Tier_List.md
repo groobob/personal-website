@@ -1,6 +1,5 @@
 ---
 layout: "../layouts/postlayout.astro"
-title: "UTSC Course Tier List"
 ---
 # My First Blog Post
 
