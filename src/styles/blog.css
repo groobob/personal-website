@@ -32,7 +32,7 @@
 }
 .blog
 {
-    background-color: rgba(55, 69, 109, .25);
+    background-color: rgba(55, 69, 109, .2);
 
     margin-inline: 20vw;
 
@@ -42,6 +42,21 @@
     justify-content: center;
 
     border-radius: .5rem;
+}
+@keyframes fadeandslidein {
+    0% {
+        opacity: 0;
+        top: 2rem;
+        right: .2rem;
+    }
+    10% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        top: 0rem;
+        right: 0rem;
+    }
 }
 .blog-card
 {
@@ -55,9 +70,15 @@
 
     height: 14rem;
 
-    border-radius: .5rem;
+    border-radius: .6rem;
 
     position: relative;
+
+    animation-name: fadeandslidein;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.02, 0.66, 0.15, 0.98);
 }
 .blog-info
 {

@@ -23,7 +23,7 @@ Really the first troller culling course, I remember taking the first midterm and
 
 (*so many people dropped, the average went from like a 58% to 64%* 💀)
 
-Apart from that, the course content is giga interesting, unlike any math ever done in high school, the teaching was great, slides were super usefull. There were even lecture recordings along with detailed test breakdowns before each one. It was a pretty easy 4.0 given that you invested the time to study and understand what it was that you were doing. Everything about this course was great literally no complaints. Probably my favourite prof so as of today ngl.
+Apart from that, the course content is giga interesting, unlike any math ever done in high school, the teaching was great, slides were super useful. There were even lecture recordings along with detailed test breakdowns before each one. It was a pretty easy 4.0 given that you invested the time to study and understand what it was that you were doing. Everything about this course was great literally no complaints. Probably my favourite prof so as of today ngl.
 
 ## SOCA05 | Intro to Sociology - B
 This was a breadth course so I wont spend too much time talking about it. But I took this with Bahar Hashemi, the prof was nice, the course content was alright. However there were so many readings (that I never did) which resulted in a lot of memorization. But really what else can you expect from a social sciences course. I found it boring, but interesting once I had completed the course, decently easy 4.0 with enough time investment.
@@ -57,14 +57,14 @@ Parker Glen Adley did not cook with this course structure, my prof Thomas Kielst
 
 Thomas Kielstra was someone who seemed very passionate about linear algebra, but he ended up going on linear algebra side tangents a lot. This is cool in linear algebra 2 where you understand what hes talking about, but to someone who took a while to understand what a span was this just confuses me more. Oh yeah and he had hieroglyphic handwriting.
 
-Despite all that the tests were fair and I ended up nabbing that 4.0 too :)
+Despite all that the tests were fair and I ended up nabbing that 4.0 too. :)
 
-## MATA37 | Calc 2- A
+## MATA37 | Calc 2 - A
 ![insert thousand yard stare](../../images/postimages/thousand_yard_stare.png)
 
 A true nightmare of a course. Will 100% haunt every first year for the rest of their university careers. The reason why it's ranked so high is because Kathleen Smith has the best teaching out of any prof I've had. You can't skip lectures as there aren't slides nor recordings, but her teaching is so good that you don't really want to skip (unless you just hate calculus I guess).
 
-But holy moly she is the GPA muncher, I got obliterated, It also doesn't help that for me, all the content is new as we only cover calc 1 in high school. Yeah I tried for this course but it brok my 4.0 streak with a 3.0 🗿. Really the best teacher you can get if you don't care about your gpa though
+But holy moly she is the GPA muncher, I got obliterated, It also doesn't help that for me, all the content is new as we only cover calc 1 in high school. Yeah I tried for this course but it brok my 4.0 streak with a 3.0 🗿. Really the best teacher you can get if you don't care about your gpa though.
 
 ## That's it! (For now)
-I hope to update this list in the future with changes and new courses as I run it through university. Thanks for taking the time to read this massive first entry. I'll probably add images as well to visual this tier list
+I hope to update this list in the future with changes and new courses as I run it through university. Thanks for taking the time to read this massive first entry. I'll probably add images as well to visual this tier list.

@@ -6,6 +6,8 @@ import '../styles/global.css';
 import '../styles/blog.css';
 import '../styles/footer.css';
 
+let index = 0;
+
 const blogsData = [
   {name: "UTSC COURSE TIER LIST!", date: "2025-06-16", description: "A quick ranking that will be expanded upon in future posts about my first year courses at UTSC as a CS Specialist and Math Major", link: "/posts/UTSC_Course_Tier_List", image: ""}
 ]
@@ -31,7 +33,7 @@ const blogsData = [
     </div>
     <p class="separator">·•—–––––––•·</p>
     <div class="blog">
-      {blogsData.map((data) => <BlogCard name={data.name} date={data.date} description={data.description} link={data.link} image={data.image}/>)}
+      {blogsData.map((data) => <BlogCard name={data.name} date={data.date} description={data.description} link={data.link} image={data.image} index={index++}/>)}
     </div>
     <Footer/>
 	</body>
