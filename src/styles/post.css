@@ -1,0 +1,18 @@
+.post
+{
+    background-color: rgba(55, 69, 109, .5);
+
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+    padding-top: .2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+
+    font-size: 1.4rem;
+
+    border-radius: .5rem;
+}

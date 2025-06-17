@@ -6,6 +6,7 @@ import Footer from '../../components/Footer.astro';
 
 import '../../styles/global.css';
 import '../../styles/footer.css';
+import '../../styles/post.css';
 ---
 <html>
     <head>
@@ -20,7 +21,9 @@ import '../../styles/footer.css';
     </head>
     <body>
         <Navigation/>
-        <slot/>
+        <div class="post">
+            <slot/>
+        </div>
         <Footer/>
     </body>
 </html>
