@@ -33,8 +33,18 @@ html {
     }
 }
 
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html{
+    overflow: auto;
+    scrollbar-width: none;
+}
+
 body{
     margin: 0;
+
     color: #f0ebd8;
 }
 
