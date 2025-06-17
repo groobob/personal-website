@@ -30,3 +30,51 @@
 
     text-align: center;
 }
+.blog
+{
+    background-color: rgba(55, 69, 109, .25);
+
+    margin-inline: 20vw;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    border-radius: .5rem;
+}
+.blog-card
+{
+    font-size: 1.5rem;
+
+    background-color: rgba(55, 69, 109, .5);
+
+    margin: 2rem;
+
+    padding: 1rem;
+
+    height: 14rem;
+
+    border-radius: .5rem;
+
+    position: relative;
+}
+.blog-info
+{
+    position: absolute;
+
+    margin-left: 2rem;
+
+    width: 60%;
+}
+.blog-link
+{
+    position: absolute;
+
+    margin-right: 2rem;
+
+    font-size: 2.2rem;
+
+    right: 0;
+    bottom: 45%;
+}
