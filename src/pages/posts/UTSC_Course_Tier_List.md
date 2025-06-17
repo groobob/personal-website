@@ -15,10 +15,10 @@ Lets just get straight into it then!
 
 # Sem 1
 
-## CSCA08 - A Tier
+## CSCA08 - A
 I took this course with Irene Huang and it is just a very solid course, there isn't much to say. It's a very introductory course to python and CS as a whole and covers a pretty wide variety of topics. The prof was nice, midterms were fair, and the content covered made the course is a pretty free 4.0 if you had any CS experience beforehand. Fairly enjoyable and is my highest mark at the time of writing.
 
-## MATA31 - S Tier
+## MATA31 - S
 Really the first troller culling course, I remember taking the first midterm and having the results being a class average of **58%**. Then the prof Michael *(goat)* Cavers would call it a satisfactory average. Only after taking the full course would I understand.
 
 (*so many people dropped, the average went from like a 58% to 64%* 💀)
