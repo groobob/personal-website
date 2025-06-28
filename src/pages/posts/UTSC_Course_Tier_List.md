@@ -3,7 +3,7 @@ layout: "../layouts/postlayout.astro"
 ---
 # My First Blog Post
 
-Published: 2025-06-16
+Published: 06-16-2025
 
 Yo! Thanks for checking out my *first ever* blog post. I hope to be able to fill this page up in the future with multiple blogs and this is just the beginning. I wanna keep this blog fully unedited to respect the authenticity that comes with these blogs, so expect some mistakes here and there.
 
