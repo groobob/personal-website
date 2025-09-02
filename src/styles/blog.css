@@ -81,7 +81,7 @@
 
     margin-left: 2rem;
 
-    width: 60%;
+    width: 100%;
 }
 .blog-link
 {
@@ -92,5 +92,5 @@
     font-size: 2.2rem;
 
     right: 0;
-    bottom: 45%;
+    bottom: 90%;
 }

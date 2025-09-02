@@ -2,8 +2,9 @@
     background-color: #36456D;
     background-color: rgba(55, 69, 109, .75);
 
-    margin-left: 35vw;
-    margin-right: 35vw;
+    margin-inline: auto;
+    width: 30vw;
+    min-width: 13em;
     margin-top: 2rem;
 
     padding: .1rem;
@@ -25,8 +26,9 @@
 {
     background-color: rgba(55, 69, 109, .5);
 
-    margin-left: 25vw;
-    margin-right: 25vw;
+    width: 50vw;
+    min-width: 14em;
+    margin-inline: auto;
     margin-top: 1rem;
 
     padding-top: 1rem;
@@ -70,8 +72,9 @@
     text-align: center;
 
     margin-bottom: 4rem;
-    margin-left: 34vw;
-    margin-right: 34vw;
+    width: 32vw;
+    min-width: 25em;
+    margin-inline: auto;
 
     padding-bottom: 1rem;
 
@@ -85,10 +88,12 @@
     text-align: center;
 
     margin-bottom: 4rem;
-    margin-left: 28vw;
-    margin-right: 28vw;
+    width: 44vw;
+    min-width: 23em;
+    margin-inline: auto;
 
     padding-bottom: 1rem;
+    padding-inline: 1rem;
 
     border-radius: .5rem;
 }
@@ -97,8 +102,9 @@
     background-color: #36456D;
     background-color: rgba(61, 46, 104, 0.5);
 
-    margin-left: 32vw;
-    margin-right: 32vw;
+    width: 36vw;
+    min-width: 25em;
+    margin-inline: auto;
 
     border-radius: .5rem;
 }
