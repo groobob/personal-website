@@ -2,8 +2,8 @@
 {
     background-color: rgba(55, 69, 109, .5);
 
-    margin-left: 35vw;
-    margin-right: 35vw;
+    width: 30vh;
+    margin-inline: auto;
     margin-top: 2rem;
     margin-bottom: 3rem;
 
@@ -26,7 +26,10 @@
 {
     background-color: rgba(55, 69, 109, .2);
 
-    margin-inline: 20vw;
+    width: 60vw;
+    min-width: 28em;
+
+    margin-inline: auto;
 
     display: flex;
     flex-direction: column;
@@ -72,6 +75,10 @@
     animation-fill-mode: both;
     animation-timing-function: cubic-bezier(0.02, 0.66, 0.15, 0.98);
 }
+.blog-title
+{
+    font-size: 2rem;
+}
 .blog-info
 {
     position: absolute;
@@ -80,8 +87,7 @@
     left: 0%;
 
     margin-left: 2rem;
-
-    width: 100%;
+    margin-right: 2rem;
 }
 .blog-link
 {
@@ -89,8 +95,56 @@
 
     margin-right: 2rem;
 
-    font-size: 2.2rem;
+    font-size: 2rem;
 
     right: 0;
-    bottom: 90%;
+    bottom: 10%;
+}
+
+@media screen and (max-width: 1200px)
+{
+    .blog-title
+    {
+        font-size: 1.8rem;
+    }
+    .blog-info
+    {
+        font-size: 1.3rem;
+    }
+    .blog-link
+    {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    .blog-title
+    {
+        font-size: 1.6rem;
+    }
+    .blog-info
+    {
+        font-size: 1.1rem;
+    }
+    .blog-link
+    {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .blog-title
+    {
+        font-size: 1.5rem;
+    }
+    .blog-info
+    {
+        font-size: 1rem;
+    }
+    .blog-link
+    {
+        font-size: 1.5rem;
+    }
 }

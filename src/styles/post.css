@@ -2,8 +2,8 @@
 {
     background-color: rgba(55, 69, 109, .5);
 
-    margin-left: 15vw;
-    margin-right: 15vw;
+    width: 70vw;
+    margin-inline: auto;
     margin-top: 2rem;
     margin-bottom: 3rem;
 
@@ -15,4 +15,12 @@
     font-size: 1.4rem;
 
     border-radius: .5rem;
+}
+
+@media screen and (max-width: 800px)
+{
+    .post
+    {
+        font-size: 1.2rem;
+    }
 }

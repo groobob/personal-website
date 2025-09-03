@@ -21,7 +21,7 @@ The fact that this inspires her to keep on living on despite finding records tha
 
 ## The Detective
 
-This storyline was super interesting. In season 2 🥲
+This storyline was super interesting. In season 2 only though lol
 
 I feel like they could've done so much more with this storyline, because the buildup for this was insane. Literally from the end of season 1 to the end, this storyline was active. However, they end up finding the island way too late, leaving the detective with literally no interaction with the squid games at all. Blud literally yells why at his brother and thats it. No conversation, no reveal, no history, no nothing. Not even any closure, this guy just seems super happy after 6 months for seemingly no reason??
 
