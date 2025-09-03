@@ -2,8 +2,10 @@
 {
     background-color: rgba(55, 69, 109, .5);
 
-    margin-left: 30vw;
-    margin-right: 30vw;
+    width: 40vw;
+    min-width: 10em;
+
+    margin-inline: auto;
     margin-top: 2rem;
     margin-bottom: 3rem;
 
@@ -24,8 +26,10 @@
 }
 .projects
 {
-    margin-left: 20vw;
-    margin-right: 20vw;
+    width: 60vw;
+    min-width: 30em;
+
+    margin-inline: auto;
     margin-bottom: 5rem;
 
     display: flex;

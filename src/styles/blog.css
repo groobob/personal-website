@@ -86,8 +86,7 @@
     top: 0%;
     left: 0%;
 
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-inline: 2rem;
 }
 .blog-link
 {
