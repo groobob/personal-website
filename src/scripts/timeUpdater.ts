@@ -11,7 +11,7 @@ export function StartTimeUpdate() {
 
         const currentTimeElement = document.getElementById('current-time');
         if (currentTimeElement) {
-            currentTimeElement.innerText = `${timeString} (UTC-4)`;
+            currentTimeElement.innerText = `${timeString} (UTC-5)`;
         }
     }
 
